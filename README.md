@@ -6,10 +6,10 @@ Benvenuto nella mia repo dedicata all'Avvento del Codice 2023, scritta interamen
 
 ## Struttura della Repo 📂
 
-- **/giorno1**: Soluzione per il primo giorno dell'Avvento del Codice.
-- **/giorno2**: Soluzione per il secondo giorno dell'Avvento del Codice.
+- **/day**: Soluzione per il primo giorno dell'Avvento del Codice.
+- **/day2**: Soluzione per il secondo giorno dell'Avvento del Codice.
 - ...
-- **/giorno25**: Soluzione per il venticinquesimo giorno dell'Avvento del Codice.
+- **/day**: Soluzione per il venticinquesimo giorno dell'Avvento del Codice.
 
 ## Come Eseguire il Codice 🏃‍♂️
 
