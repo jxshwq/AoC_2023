@@ -48,14 +48,8 @@ func main() {
 		}
 	}
 
-	result = append(result, (getResult(getNext(result, 1))))
-	fmt.Println(result)
-
-	// sommo tutti i valori dell'array
 	var n int
-	for _, num := range result {
-		n += num
-	}
+	n = (getResult(getNext(result, 1)))
 	fmt.Println(n)
 }
 
