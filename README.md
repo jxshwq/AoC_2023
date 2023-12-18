@@ -1,15 +1,15 @@
 # Advent of Code 2023
 
-## Benvenuto all'Avvento del Codice 2023! 🎄🚀
+## Benvenuto all'Advent of Code 2023! 🎄🚀
 
-Benvenuto nella mia repo dedicata all'Avvento del Codice 2023, scritta interamente in Go. Qui troverai le mie soluzioni creative e ottimizzate per i problemi giornalieri proposti da Advent of Code.
+Benvenuto nella mia repo dedicata all'Advent of Code 2023, scritta interamente in Go. Qui troverai le mie soluzioni creative e ottimizzate per i problemi giornalieri proposti da Advent of Code.
 
 ## Struttura della Repo 📂
 
-- **/day1**: Soluzione per il primo giorno dell'Avvento del Codice.
-- **/day2**: Soluzione per il secondo giorno dell'Avvento del Codice.
+- **/day1**: Soluzione per il primo giorno dell'Advent of Code.
+- **/day2**: Soluzione per il secondo giorno dell'Advent of Code.
 - ...
-- **/day**: Soluzione per il venticinquesimo giorno dell'Avvento del Codice.
+- **/day**: Soluzione per il venticinquesimo giorno dell'Advent of Code.
 
 ## Come Eseguire il Codice 🏃‍♂️
 
