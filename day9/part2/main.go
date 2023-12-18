@@ -19,38 +19,20 @@ func main() {
 
 	// Leggi il file riga per riga
 	scanner := bufio.NewScanner(file)
-	var rows [][]int
+	result := make([]int, 21)
 	for scanner.Scan() {
 		line := scanner.Text()
 		numbers := strings.Split(line, " ")
-		row := make([]int, len(numbers))
 		for i, numStr := range numbers {
 			num, err := strconv.Atoi(numStr)
 			if err != nil {
-				fmt.Println("Errore nella conversione dell'intero:", err)
+				fmt.Println("Errore nella conversione del numero:", err)
 				return
 			}
-			row[i] = num
-		}
-		rows = append(rows, row)
-	}
-
-	// Somma le righe per ottenere un singolo array
-
-	var result []int
-	for _, row := range rows {
-		for i, num := range row {
-			if i >= len(result) {
-				result = append(result, num)
-			} else {
-				result[i] += num
-			}
+			result[i] += num
 		}
 	}
-
-	var n int
-	n = (getResult(getNext(result, 1)))
-	fmt.Println(n)
+	fmt.Println(getResult(getNext(result, 1)))
 }
 
 // funzione che calcola il "previous value" per ogni riga di input
