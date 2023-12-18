@@ -6,7 +6,7 @@ Benvenuto nella mia repo dedicata all'Avvento del Codice 2023, scritta interamen
 
 ## Struttura della Repo 📂
 
-- **/day**: Soluzione per il primo giorno dell'Avvento del Codice.
+- **/day1**: Soluzione per il primo giorno dell'Avvento del Codice.
 - **/day2**: Soluzione per il secondo giorno dell'Avvento del Codice.
 - ...
 - **/day**: Soluzione per il venticinquesimo giorno dell'Avvento del Codice.
@@ -16,7 +16,7 @@ Benvenuto nella mia repo dedicata all'Avvento del Codice 2023, scritta interamen
 Assicurati di avere Go installato nel tuo sistema. Esegui il seguente comando per eseguire il codice per ogni giorno:
 
 ```bash
-cd giornoX
+cd dayX
 go run main.go
 ```
 
