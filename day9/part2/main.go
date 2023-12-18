@@ -35,12 +35,21 @@ func main() {
 		rows = append(rows, row)
 	}
 
-	// creeo un array che contiene il "previous value" per ogni riga di input
+	// Somma le righe per ottenere un singolo array
+
 	var result []int
 	for _, row := range rows {
-		result = append(result, (getResult(getNext(row, 1))))
-		fmt.Println(result)
+		for i, num := range row {
+			if i >= len(result) {
+				result = append(result, num)
+			} else {
+				result[i] += num
+			}
+		}
 	}
+
+	result = append(result, (getResult(getNext(result, 1))))
+	fmt.Println(result)
 
 	// sommo tutti i valori dell'array
 	var n int
